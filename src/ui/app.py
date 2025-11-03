@@ -2,7 +2,7 @@ import streamlit as st
 import requests
 
 # Define FastAPI backend URL
-API_URL = "http://127.0.0.1:8000"
+API_URL = "https://deckaipragat.streamlit.app/"
 
 st.set_page_config(page_title="AI-Based PowerPoint Generator", layout="centered")
 st.title("AI-Based PowerPoint Generator")
