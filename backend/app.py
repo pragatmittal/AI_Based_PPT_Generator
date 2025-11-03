@@ -7,7 +7,7 @@ app = FastAPI()
 # Allow frontend to access backend
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],  # Replace with Streamlit frontend URL for production
+    allow_origins=["https://deckaipragat.streamlit.app"],  # Replace with Streamlit frontend URL for production
     allow_methods=["*"],
     allow_headers=["*"],
 )
